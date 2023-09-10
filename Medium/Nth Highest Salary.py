@@ -56,6 +56,8 @@ Step1 : We will have to create a rank column which will rank the salaries of eac
         a new column
 Step2 : We will have to filter the data based upon rank, where rank is equal to N
 Step3 : Finally we will have to apply distinct on top of filtered data, as it can happen the Nth salary is same for more than 1 employee
+
+Note : The column name wrt each N value should be dynamic as well, so while applying rename function I have concatednated string with N value
 '''
 
 import pandas as pd
